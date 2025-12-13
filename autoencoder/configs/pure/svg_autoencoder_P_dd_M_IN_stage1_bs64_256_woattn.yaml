@@ -1,0 +1,77 @@
+# Main training configuration - Using original target
+training:
+  logdir: "logs"
+  scale_lr: false
+  accumulate_grad_batches: 1
+  save_every_n_train_steps: 20000
+  save_every_n_epochs: 1
+
+  trainer:
+    devices: 8
+    num_nodes: 1
+    strategy: "ddp_find_unused_parameters_true"
+    accelerator: "gpu"
+    max_epochs: 1000
+    precision: 32
+
+
+# Model configuration
+model:
+  init_weight: 
+  base_learning_rate: 1.0e-04
+  target: ldm.models.dinov3_decoder_imagenet.DinoDecoder
+  params:    
+    ckpt_path: 
+    embed_dim: 32
+    lossconfig:
+      target: "ldm.modules.losses.LPIPSWithDiscriminatorDecoderIN"
+      params:
+        disc_start: 5000
+        disc_weight: 0.5
+    
+    ddconfig:
+      double_z: true
+      z_channels: 384
+      resolution: 256
+      in_channels: 3
+      out_ch: 3
+      ch: 128
+      ch_mult:
+      - 1
+      - 1
+      - 2
+      - 2
+      - 4
+      num_res_blocks: 2
+      attn_resolutions: []
+      dropout: 0.0
+
+    dinoconfig:
+      dinov3_location: dinov3
+      model_name: dinov3_vits16plus
+      weights: pre-trained/dinov3_vits16plus_pretrain_lvd1689m-4057cbaa.pth
+    extra_vit_config: null
+
+# Data configuration
+data:
+  target: "utils.data_module_allinone.DataModuleFromConfig"
+  params:
+    batch_size: 64
+    wrap: true
+    num_workers: 16
+    use_worker_init_fn: true
+    shuffle_val_dataloader: false
+    
+    train:
+      target: ldm.data.imagenet.ImageNetTrain
+      params:
+        data_root: /root/data/imagenet/
+        size: 256
+
+    validation:
+      target: ldm.data.imagenet.ImageNetValidation
+      params:
+        data_root: /root/data/imagenet/
+        size: 256
+
+  

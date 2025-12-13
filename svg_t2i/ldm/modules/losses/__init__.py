@@ -1,0 +1,4 @@
+from ldm.modules.losses.contperceptual import LPIPSWithDiscriminator
+from ldm.modules.losses.contperceptual_decoder import LPIPSWithDiscriminatorDecoder
+from ldm.modules.losses.contperceptual_decoder_imagenet import LPIPSWithDiscriminatorDecoder as LPIPSWithDiscriminatorDecoderIN
+from ldm.modules.losses.contperceptual_decoder_imagenet_distillmlp import LPIPSWithDiscriminatorDecoder as LPIPSWithDiscriminatorDecoderINDistllMlp

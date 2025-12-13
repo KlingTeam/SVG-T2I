@@ -1,0 +1,1 @@
+from .model_dino import NextDiT_2B_GQA_patch1_Adaln_Refiner, NextDiT_08B_GQA_patch1_Adaln_Refiner

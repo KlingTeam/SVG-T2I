@@ -1,0 +1,4 @@
+META:
+  -
+    path: './configs/example.jsonl'
+    type: 'image_text'

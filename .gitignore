@@ -1,0 +1,113 @@
+# ==============================================
+# General Python / Development Environment
+# ==============================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.installed.cfg
+*.egg
+# ... (other existing Python-related rules remain unchanged)
+
+# ==============================================
+# Deep Learning / Large Files
+# ==============================================
+
+# Large model and checkpoint files (recursive)
+**/*.pt
+**/*.bin
+**/*.safetensors
+**/*.h5
+**/*.onnx
+**/*.ckpt
+**/*.pb
+**/*.pth
+
+# Experiment outputs and training artifacts
+**/wandb
+**/exps
+exps/**/*.pt
+**/logs
+**/output
+**/outputs/
+**/results**/
+**/samples/
+**/generations/
+**/exp
+**/weights/
+**/checkpoints/
+
+# Common deep learning repositories or model folders
+**/autoencoderkl-model
+**/taming-transformers
+**/pretrained_models
+
+# ==============================================
+# Media Files (recursive)
+# ==============================================
+**/*.png
+**/*.jpg
+**/*.jpeg
+**/*.JPEG
+**/*.gif
+**/*.bmp
+**/*.tiff
+**/*.mp4
+**/*.avi
+**/*.mov
+
+# ==============================================
+# Dataset Archives and Arrays
+# ==============================================
+**/*.zip
+**/*.tar
+**/*.gz
+**/*.npz
+**/*.npy
+
+# ==============================================
+# IDE / OS / Notebook Artifacts
+# ==============================================
+**/.DS_Store
+**/Thumbs.db
+**/.ipynb_checkpoints/
+**/.vscode/
+**/.idea/
+
+# ==============================================
+# Pattern-based Noise / Intermediate Data
+# ==============================================
+**/*noise*
+**/*ckpt*
+**/*latents*
+**/*submmit*
+
+# ==============================================
+# Whitelist (Exception Rules)
+# ==============================================
+# Use the following rules to explicitly keep files or directories
+# even if they match ignore patterns above.
+
+!assets/
+!assets/**
+!*/test/
+!*/test/**
+
+# ==============================================
+# Project-specific Exceptions / Ignored Outputs
+# ==============================================
+rope-vit/
+mmdetection/
+object_detector_folder/
+result/
+svg_geneval*/
+samples*
+ELLA/
+T2I-CompBench/
+geneval/svg_geneval_out*/
+geneval/svg_dpg_out*/
+geneval/result/

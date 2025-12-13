@@ -1,0 +1,19 @@
+{ 
+    "_class_name": "Decoder",
+    "block_out_channels": [
+   
+
+        768,
+        768,
+        384,
+        192,
+        96
+
+    ],
+    "out_channels": 3,
+    "z_channels": 384,
+    "num_res_blocks": 2,
+    "ffactor_spatial": 16,
+    "ffactor_temporal": 1,
+    "upsample_match_channel": true
+}
