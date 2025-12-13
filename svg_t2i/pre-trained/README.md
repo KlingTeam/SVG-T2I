@@ -1,4 +1,20 @@
 
+---
+license: mit
+tags:
+  - text-to-image
+  - diffusion
+  - latent-diffusion
+  - visual-foundation-model
+  - representation-learning
+  - dino
+  - svg
+pipeline_tag: text-to-image
+library_name: pytorch
+language:
+  - en
+---
+
 <div align="center">
 
 <!-- <img src="assets/logo.png" width="400"/> -->
