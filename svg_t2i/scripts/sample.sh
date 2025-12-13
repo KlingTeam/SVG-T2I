@@ -17,7 +17,7 @@ system_type=base
 cap_dir=configs/sample_caption.jsonl
 cap_dir=configs/example.jsonl
 autoencoder_path=pre-trained/autoencoder/svg_autoencoder_P_stage3_1024.yaml
-ckpt_dir=pre-trained/dit_stage4_TxxxM/
+ckpt_dir=pre-trained/dit-stage4-T274M/
 exp_name=$(basename $ckpt_dir)
 
 out_dir=samples/infer_${exp_name}_${res}_seed${seed}_steps${steps}_${system_type}_${solver}_cfg${cfg_scale}_shift${time_shifting_factor}_pretrained_ema
