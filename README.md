@@ -8,6 +8,7 @@
 [![arXiv](https://img.shields.io/badge/arXiv-25xx.xxxxx-b31b1b.svg)](https://arxiv.org/abs/xxxx.xxxxx)
 [![Code](https://img.shields.io/badge/GitHub-SVG--T2I-black)](https://github.com/KlingTeam/SVG-T2I)
 [![Model Weights](https://img.shields.io/badge/Model-SVG--T2I-yellow)](https://huggingface.co/KlingTeam/SVG-T2I)
+[![PDF](https://img.shields.io/badge/PDF-Paper-red.svg)](https://cloud.tsinghua.edu.cn/f/7f6ee030f273427cba4b/)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 
@@ -287,7 +288,7 @@ If you find this work helpful, please cite our papers:
       primaryClass={cs.CV}
 }
 
-@misc{shi2025latentdiffusionmodelvariational,
+@misc{svg2025,
       title={Latent Diffusion Model without Variational Autoencoder}, 
       author={Minglei Shi and Haolin Wang and Wenzhao Zheng and Ziyang Yuan and Xiaoshi Wu and Xintao Wang and Pengfei Wan and Jie Zhou and Jiwen Lu},
       year={2025},
