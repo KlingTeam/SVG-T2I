@@ -5,16 +5,35 @@
 
 # SVG-T2I: Scaling up Text-to-Image Latent Diffusion Model <br> Without Variational Autoencoder
 
-[![arXiv](https://img.shields.io/badge/arXiv-25xx.xxxxx-b31b1b.svg)](https://arxiv.org/abs/xxxx.xxxxx)
-[![Code](https://img.shields.io/badge/GitHub-SVG--T2I-black)](https://github.com/KlingTeam/SVG-T2I)
-[![Model Weights](https://img.shields.io/badge/Model-SVG--T2I-yellow)](https://huggingface.co/KlingTeam/SVG-T2I)
-[![PDF](https://img.shields.io/badge/PDF-Paper-red.svg)](https://cloud.tsinghua.edu.cn/f/7f6ee030f273427cba4b/)
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+
+<a href="https://arxiv.org/abs/xxxx.xxxxx" target="_blank">
+    <img alt="arXiv" src="https://img.shields.io/badge/arXiv-SVG--T2I-red?logo=arxiv" height="25" />
+</a>
+<a href="https://github.com/KlingTeam/SVG-T2I" target="_blank">
+    <img alt="Github" src="https://img.shields.io/badge/⚒️_Github-Code-white.svg" height="25" />
+</a>
+<a href="https://huggingface.co/KlingTeam/SVG-T2I" target="_blank">
+    <img alt="HF Model: SVG-T2I" src="https://img.shields.io/badge/%F0%9F%A4%97%20_Model-SVG--T2I-ffc107?color=ffc107&logoColor=white" height="25" />
+</a>
+<a href="https://cloud.tsinghua.edu.cn/f/7f6ee030f273427cba4b/" target="_blank">
+    <img alt="PDF" src="https://img.shields.io/badge/📄_PDF-Paper-red.svg" height="25" />
+</a>
+<a href="LICENSE" target="_blank">
+    <img alt="License" src="https://img.shields.io/badge/License-MIT-blue.svg" height="25" />
+</a>
+
+<a href="https://arxiv.org/abs/2510.15301" target="_blank">
+    <img alt="arXiv" src="https://img.shields.io/badge/arXiv-SVG-red?logo=arxiv" height="25" />
+</a>
+<a href="https://github.com/shiml20/SVG" target="_blank">
+    <img alt="Github" src="https://img.shields.io/badge/⚒️_Github-Code-white.svg" height="25" />
+</a>
+<a href="https://huggingface.co/howlin/SVG" target="_blank">
+    <img alt="HF Model: SVG" src="https://img.shields.io/badge/%F0%9F%A4%97%20_Model-SVG-ffc107?color=ffc107&logoColor=white" height="25" />
+</a>
 
 
-[![arXiv](https://img.shields.io/badge/arXiv-SVG-b31b1b.svg)](https://arxiv.org/abs/2510.15301)
-[![Code](https://img.shields.io/badge/GitHub-SVG-black)](https://github.com/shiml20/SVG)
-[![Model Weights](https://img.shields.io/badge/Model-SVG-yellow)](https://huggingface.co/howlin/SVG)
+
 
 _**[Minglei Shi](https://github.com/shiml20)<sup>1*</sup>, [Haolin Wang](https://howlin-wang.github.io)<sup>1*</sup>, [Borui Zhang](https://boruizhang.site/)<sup>1</sup>, [Wenzhao Zheng](https://wzzheng.net)<sup>1</sup>, [Bohan Zeng](https://scholar.google.com/citations?user=MHo_d3YAAAAJ&hl=en)<sup>2</sup>**_
 _**[Ziyang Yuan](https://scholar.google.ru/citations?user=fWxWEzsAAAAJ&hl=en)<sup>2†</sup>, [Xiaoshi Wu](https://scholar.google.com/citations?user=cnOAMbUAAAAJ&hl=en)<sup>2</sup>, [Yuanxing Zhang](https://scholar.google.com/citations?user=COdftTMAAAAJ&hl=en)<sup>2</sup>, [Huan Yang](https://hyang0511.github.io/)<sup>2</sup>**_
