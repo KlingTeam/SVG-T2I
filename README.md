@@ -126,7 +126,7 @@ We fully open-source the autoencoder and generation models, along with their tra
 |Stage3 (High-resol)| 1024       | 2.6B      | [Gemma-2-2B](https://huggingface.co/google/gemma-2-2b)  | [DINOv3s16p](https://github.com/facebookresearch/dinov3?tab=readme-ov-file) | [Hugging Face](https://huggingface.co/KlingTeam/SVG-T2I) |
 |Stage4 (SFT)(😄**Default**)| 1024       | 2.6B      | [Gemma-2-2B](https://huggingface.co/google/gemma-2-2b)  | [DINOv3s16p](https://github.com/facebookresearch/dinov3?tab=readme-ov-file) | [Hugging Face](https://huggingface.co/KlingTeam/SVG-T2I) |
 
-> Model Name: TxxxM indicates the total number of images the model has cumulatively seen during
+> Model Name: TxxxM indicates the total number of images the model has cumulatively seen during training.
 
 ---
 
