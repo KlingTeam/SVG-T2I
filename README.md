@@ -313,7 +313,8 @@ If you find this work helpful, please cite our papers:
       year={2025},
       eprint={2510.15301},
       archivePrefix={arXiv},
-      primaryClass={cs.CV}
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2510.15301}, 
 }
 ```
 
