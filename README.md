@@ -297,15 +297,14 @@ bash scripts/sample.sh
 If you find this work helpful, please cite our papers:
 
 ```bibtex
-@misc{svg_t2i2025,
-      title={SVG-T2I: Scaling up Text-to-Image Latent Diffusion Model Without Variational Autoencoder}, 
-      author={Minglei Shi and Haolin Wang and Borui Zhang and Wenzhao Zheng and Bohan Zeng and 
-              Ziyang Yuan and Xiaoshi Wu and Yuanxing Zhang and Huan Yang and Xintao Wang and 
-              Pengfei Wan and Kun Gai and Jie Zhou and Jiwen Lu},
+@misc{svgt2i2025,
+      title={SVG-T2I: Scaling Up Text-to-Image Latent Diffusion Model Without Variational Autoencoder}, 
+      author={Minglei Shi and Haolin Wang and Borui Zhang and Wenzhao Zheng and Bohan Zeng and Ziyang Yuan and Xiaoshi Wu and Yuanxing Zhang and Huan Yang and Xintao Wang and Pengfei Wan and Kun Gai and Jie Zhou and Jiwen Lu},
       year={2025},
-      eprint={xxxx.xxxxx},
+      eprint={2512.11749},
       archivePrefix={arXiv},
-      primaryClass={cs.CV}
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2512.11749}, 
 }
 
 @misc{svg2025,
