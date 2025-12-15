@@ -31,6 +31,7 @@
 <a href="https://huggingface.co/howlin/SVG" target="_blank">
     <img alt="HF Model: SVG" src="https://img.shields.io/badge/%F0%9F%A4%97%20_Model-SVG-ffc107?color=ffc107&logoColor=white" height="25" />
 </a>
+<br>
 
 
 
