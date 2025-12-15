@@ -6,7 +6,7 @@
 # SVG-T2I: Scaling up Text-to-Image Latent Diffusion Model <br> Without Variational Autoencoder
 
 
-<a href="https://arxiv.org/abs/xxxx.xxxxx" target="_blank">
+<a href="https://arxiv.org/abs/2512.11749" target="_blank">
     <img alt="arXiv" src="https://img.shields.io/badge/arXiv-SVG--T2I-red?logo=arxiv" height="25" />
 </a>
 <a href="https://github.com/KlingTeam/SVG-T2I" target="_blank">
