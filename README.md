@@ -46,6 +46,8 @@ _**[Xintao Wang](https://xinntao.github.io/)<sup>2</sup>, [Pengfei Wan](https://
 <br>
 <small>* Equal contribution &nbsp;&nbsp; † Corresponding author</small>
 
+**First Pure DINO Repretation Diffusion Model for Visual Generation.**
+
 </div>
 
 ---
