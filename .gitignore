@@ -96,6 +96,7 @@ exps/**/*.pt
 !assets/**
 !*/test/
 !*/test/**
+!svg_t2i/pre-trained/dinov3_s16p_layer_patchtoken_stats_dist.pt
 
 # ==============================================
 # Project-specific Exceptions / Ignored Outputs
